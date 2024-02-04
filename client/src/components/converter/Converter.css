@@ -1,0 +1,17 @@
+h2::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: rgb(199, 199, 199);
+  position: absolute;
+  left: -8px;
+  margin: 5px auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

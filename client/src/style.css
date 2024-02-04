@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Circular Std-Book";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/CircularStd-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Circular Std-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/CircularStd-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Circular Std-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/CircularStd-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/CircularStd-Bold.otf") format("opentype");
+}
+
+/* :The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/61f73b406c0c583fad8fa885.61f73b42335cc01350709479.x4McHbr.rcp.png");
+
+input:focus {
+  outline: none;
+}

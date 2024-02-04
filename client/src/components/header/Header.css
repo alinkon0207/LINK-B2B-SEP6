@@ -1,0 +1,23 @@
+/* Ive redesigned this part with tailwindcss to make it responsive on all devices, yoy can delete this */
+
+/*
+.header {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 1rem;
+}
+.logo {
+  height: 1.8rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.close {
+  height: 1.3rem;
+  cursor: pointer;
+  width: 100px;
+}
+*/

@@ -1,0 +1,178 @@
+.dashboard__container {
+  display: flex;
+  /* gap: 2em; */
+  position: relative;
+}
+
+.dashboard__nav {
+  border: 1px solid rgb(49, 0, 128);
+  background-color: var(--white);
+  padding: 30px 30px;
+  max-height: 100%;
+  position: relative;
+  float: left;
+}
+
+.dashboard__nav > img {
+  margin: 0 auto;
+  height: 2.2rem;
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard__nav > .navbar-bottom {
+  border: 1px solid rgb(128, 0, 0);
+  position: absolute;
+  bottom: 8rem;
+}
+
+.dashboard__page {
+  border: 1px solid rgb(128, 0, 0);
+  flex: 1;
+  background-color: var(--wild-sand);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 10px 0px 0 0px;
+  float: right;
+}
+
+.dashboard__profile {
+  border: 1px solid rgb(205, 218, 22);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto 30px auto;
+  padding: 0 2rem;
+}
+
+.dashboard__header {
+  font-size: var(--font-size-x);
+  font-weight: 600;
+  font-family: var(--font-family-circular_std-medium);
+}
+
+.dashboard__user {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  padding: 0.3em 1em;
+  border-radius: 5px;
+}
+
+.dashboard__user > img {
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.dashboard__account {
+  border: 1px solid rgb(189, 18, 146);
+  padding: 0 2rem;
+}
+
+.dashboard__money {
+  border: 1px solid rgb(15, 175, 224);
+  margin-bottom: 2rem;
+}
+.mobile_navigation {
+  cursor: pointer;
+  display: none;
+}
+.mobile_navigation > img {
+  height: "3rem";
+  margin: "0px auto 2rem auto";
+}
+.close {
+  display: none;
+  cursor: pointer;
+}
+.show {
+  transform: translateX(0px);
+  transition: transform 0.5s ease-in-out;
+}
+/* 
+.dashboard__activity {
+  border: 1px solid rgb(182, 86, 8);
+} */
+
+@media screen and (max-width: 1024px) {
+  .close {
+    display: block;
+  }
+  .dashboard__profile {
+    padding: 0 3rem;
+  }
+  .dashboard__profile > h1 {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+  }
+  .dashboard__user > h3 {
+    font-size: 1.2rem;
+  }
+  .dashboard__user > img {
+    height: 1.8rem;
+    margin-right: 1rem;
+  }
+  .dashboard__nav {
+    padding: 30px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(-200px);
+    transition: transform 0.5s ease-in-out;
+    z-index: 999;
+  }
+  .mobile_navigation {
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+  }
+  .show {
+    transform: translateX(0px);
+    transition: transform 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard__profile {
+    padding: 0 2rem;
+    margin-top: 3px;
+  }
+  .mobile_navigation {
+    top: 2.3%;
+    left: 3%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dashboard__nav {
+    padding: 30px 10px;
+  }
+  .dashboard__profile {
+    justify-content: flex-end;
+  }
+  .dashboard__header {
+    display: none;
+  }
+  .dashboard__user > h3 {
+    font-size: 1rem;
+  }
+  .dashboard__user > img {
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+  .dashboard__account {
+    padding: 0 1.5rem;
+  }
+  .mobile_navigation > img {
+    height: "1.5rem";
+    margin: "0px auto 2rem auto";
+  }
+  .mobile_navigation {
+    top: 2%;
+    left: 8%;
+  }
+}

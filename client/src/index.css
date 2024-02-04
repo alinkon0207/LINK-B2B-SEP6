@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #000000;
+  --black-2: #00000080;
+  --button-green: #30ae4d;
+  --catalina-blue: #093473;
+  --celeste: #cccccc;
+  --cloud: #c6c6c6;
+  --dove-gray: #6c6e6f;
+  --fiord: #4a5568;
+  --ghost: #c3c8d3;
+  --gravel: #4a4c4e;
+  --link-water: #dae6ff;
+  --malachite: #04c45c;
+  --mist-gray: #c4c4c4;
+  --navy-blue: #1565d8;
+  --navy-blue-2: #1976d2;
+  --deep-blue: #032a82;
+  --nevada: #696f79;
+  --oslo-gray: #828b94;
+  --quick-silver: #a4a5a6;
+  --regent-gray: #8692a680;
+  --regent-st-blue: #a3d3e3;
+  --robins-egg-blue: #00c1ff;
+  --sonic-silver: #747474;
+  --sonic-silver-2: #757575;
+  --suva-gray: #888888;
+  --white: #ffffff;
+  --wild-sand: #f3f4f6;
+  /* --wild-sand: #b4b4b4; */
+  --main-back: #e5e5e5;
+
+  --font-size-l: 1.5rem;
+  --font-size-x: 2rem;
+  --font-size-lx: 2.5rem;
+  --font-size-m: 1.125rem;
+  --font-size-s: 1rem;
+  --font-size-xl: 1.875rem;
+  --font-size-xs: 0.875rem;
+  --font-size-xll: 3rem;
+  --font-size-xxl: 4rem;
+  --font-size-xxs: 0.75rem;
+
+  --font-family-circular_std-bold: "Circular Std-Bold";
+  --font-family-circular_std-book: "Circular Std-Book";
+  --font-family-circular_std-medium: "Circular Std-Medium";
+  --font-family-circular_std-regular: "Circular Std-Regular";
+}
+
+.qwerty {
+  color: #22222280;
+}
+
+* {
+  font-family: Circular Std;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  font-family: Circular Std;
+  background-color: #000;
+  color: #fff;
+}
+
+@layer components {
+  .AmountInput {
+    @apply flex items-center p-3 space-x-1 w-60 mx-auto justify-between;
+  }
+}
+
+.AmountInput::after {
+  background-color: #1565d8;
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 210px;
+  height: 3px;
+}

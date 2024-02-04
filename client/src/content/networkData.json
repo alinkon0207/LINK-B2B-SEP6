@@ -1,0 +1,29 @@
+[
+  {
+    "balance": 0,
+    "network": "solana",
+    "image": "solana",
+    "withdraw": true,
+    "transfer": true,
+    "streamable": true,
+    "address": "4tviyTYXuRc7qdEGpwamnMpR8JS91HEXgvRFQHW8lRTt"
+  },
+  {
+    "balance": 0,
+    "network": "polygon",
+    "image": "polygon",
+    "withdraw": true,
+    "transfer": true,
+    "streamable": false,
+    "address": "0x7985020a522R970fa7Q56E53F3fT8550D13294B4"
+  },
+  {
+    "balance": 0,
+    "network": "stellar",
+    "image": "stellar",
+    "withdraw": true,
+    "transfer": true,
+    "streamable": false,
+    "address": "GBH4TZYZ4IRCPO44CBOLFUHULU2WGALXTAVESQA6432MBJMABBB4GIYI"
+  }
+]
